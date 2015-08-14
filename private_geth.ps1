@@ -1,0 +1,1 @@
+geth --rpc --rpccorsdomain="*" --datadir geth_private --rpcapi "admin,db,eth,debug,miner,net,shh,txpool,personal,web3" --nodiscover --networkid 63745 --genesis private_genesis.json --solc "c:/Devel/ether/AlethZero/Release/solc.exe" --unlock 0
